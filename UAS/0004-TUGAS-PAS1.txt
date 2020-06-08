@@ -1,0 +1,37 @@
+Script started on Tue 09 Jun 2020 03:51:15 AM WIB
+muhammad.michael@badak:~$ PS1="$ "
+$ echo $GitHubUser
+muhammadmichael
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200609-035146-5d2c-muhammad.michael/>
+$ PS1="\$(eval \$PSTAMP)"
+200609-035155-c249-muhammad.michael/> echo -e $CEKSAYA
+muhammadmichael ZCZCSCRIPTSTART 200604-145321 muhammadmichael
+muhammadmichael muhammadmichael 200604-145350-4e90-muhammad.michael/ 200604-145350 SEQOK SUMOK 4e900e97
+muhammadmichael muhammadmichael 200604-145359-942d-muhammad.michael/ 200604-145359 SEQOK SUMOK 942d4afb
+muhammadmichael muhammadmichael 200604-145426-bd43-muhammad.michael/ 200604-145426 SEQOK SUMOK bd436c18
+muhammadmichael muhammadmichael 200604-145436-645a-muhammad.michael/ 200604-145436 SEQOK SUMOK 645ab3ce
+muhammadmichael ZCZCSCRIPTSTOP 200604-145453 SEQOK
+
+200609-035202-b841-muhammad.michael/> echo -e $CEKSEBELA1
+muhammadmichael ZCZCSCRIPTSTART 200531-191533 naufalauddin
+muhammadmichael naufalauddin 200531-191605-d5b2-UAS/ 200531-191605 SEQOK SUMOK d5b2a7f0
+muhammadmichael naufalauddin 200531-191628-accf-UAS/ 200531-191628 SEQOK SUMOK accfda11
+muhammadmichael naufalauddin 200531-191637-2188-UAS/ 200531-191637 SEQOK SUMOK 218854d9
+muhammadmichael naufalauddin 200531-191650-5ee4-UAS/ 200531-191650 SEQOK SUMOK 5ee48293
+muhammadmichael ZCZCSCRIPTSTOP 200531-191657 SEQOK
+
+200609-035210-712c-muhammad.michael/> echo -e $CEKSEBELA2
+muhammadmichael ZCZCSCRIPTSTART 200603-102728 naufalhilmi12345
+muhammadmichael naufalhilmi12345 200603-102728-227d-naufal.hilmi/ 200603-102728 SEQOK SUMOK 227d1508
+muhammadmichael naufalhilmi12345 200603-102730-760d-naufal.hilmi/ 200603-102730 SEQOK SUMOK 760ddceb
+muhammadmichael naufalhilmi12345 200603-102752-cbc6-naufal.hilmi/ 200603-102752 SEQOK SUMOK cbc6e53d
+muhammadmichael naufalhilmi12345 200603-102812-8f22-naufal.hilmi/ 200603-102812 SEQOK SUMOK 8f22cbe1
+muhammadmichael ZCZCSCRIPTSTOP 200603-102927 SEQOK
+
+200609-035219-17e2-muhammad.michael/> exit
+exit
+
+Script done on Tue 09 Jun 2020 03:52:27 AM WIB
