@@ -4,6 +4,5 @@ permalink: /URLs/
 
 ## Kumpulan URL
 
-* https://os.vlsm.org/
-
-[muhammadmichael](../)
+ * [OS.VLSM.ORG](https://os.vlsm.org/)
+ * [Muhammad Michael Maulana](../)
