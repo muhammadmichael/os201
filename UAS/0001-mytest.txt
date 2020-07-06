@@ -1,14 +1,15 @@
-Script started on Mon 06 Jul 2020 04:27:55 PM WIB
+Script started on Mon 06 Jul 2020 05:04:02 PM WIB
 ]0;muhammad.michael@badak: ~muhammad.michael@badak:~$ PS1="$ "
-$ echo $GitHubUser
-muhammadmichael
-$ echo $PSTAMP
-TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$ eval $PSTAMP
-200706-162834-dc97-muhammad.michael/> 
 $ date
-Mon Jul  6 16:28:45 WIB 2020
-$ gpg2 --list-keys
+Mon Jul  6 17:04:19 WIB 2020
+$ echo $HOSTNAME
+badak
+$ echo $akunGitHub
+muhammadmichael
+$ echo $PSAMP[K[K[KTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200706-170509-13ac-muhammad.michael/> gpg2 --list-keys
 /home/fasilkom/mahasiswa/m/muhammad.michael/.gnupg/pubring.gpg
 --------------------------------------------------------------
 pub   2048R/93D875E3 2020-02-23 [expires: 2021-02-22]
@@ -19,7 +20,7 @@ pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
 uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
 sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 
-$ exit
+200706-170519-6c0a-muhammad.michael/> exit
 exit
 
-Script done on Mon 06 Jul 2020 04:29:04 PM WIB
+Script done on Mon 06 Jul 2020 05:05:26 PM WIB
